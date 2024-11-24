@@ -1,8 +1,9 @@
-import './App.css';
 
 function App() {
   return (
-    <div></div>
+    <div id="app">
+      
+    </div>
   );
 }
 
