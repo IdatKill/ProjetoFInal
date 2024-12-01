@@ -1,0 +1,32 @@
+
+header {
+  background-color: "#4CAF50",
+  color: "#FFFFFF",
+  padding: "15px 0",
+  marginBottom: "20px",
+  textAlign: "center"
+};
+
+.container {
+  max-width: "500px",
+  margin: "0 auto",
+  padding: "20px",
+  backgroundColor: "#FFFFFF",
+  borderRadius: "10px",
+  boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
+};
+
+#menuItemStyle {
+  display: "block",
+  width: "100%",
+  padding: "10px 20px",
+  margin: "10px 0",
+  backgroundColor: "#4CAF50",
+  color: "white",
+  fontSize: "18px",
+  fontWeight: "bold",
+  borderRadius: "5px",
+  border: "none",
+  cursor: "pointer",
+  textAlign: "center",
+};

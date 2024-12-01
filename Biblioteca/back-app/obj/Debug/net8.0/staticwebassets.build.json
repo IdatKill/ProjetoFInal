@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oB92Wi+dGKkhmQDKDSavpGqntdZN1V9QkXSA+XFx9Cg=",
+  "Source": "back-app",
+  "BasePath": "_content/back-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,39 @@
+### API
+@base_url = http://localhost:5173/api
+
+### Cadastrar novo livro
+POST {{base_url}}/livros/cadastrar
+Content-Type: application/json
+
+{
+    "titulo": "As Crônicas de Nárnia",
+    "autor": "CS Lewis",
+    "editora": "WMF",
+    "genero": "Ação e Aventura"
+}
+
+### Listar Livro
+GET {{base_url}}/livros/listar
+
+### Cadastrar novo usuário
+POST {{base_url}}/usuarios/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Gege",
+    "email": "owsiany@gmail.com",
+    "celular": "4198286357"
+}
+
+
+### Listar todos os usuários
+GET {{base_url}}/usuarios/listar
+
+### Listar usuários ativos
+GET {{base_url}}/usuariosAtivos/listar
+
+### Desativar usuário (OBS: troca o "{id}" no final pelo usuário selecionado)
+POST {{base_url}}/usuarios/desativar/2
+
+### Ativar usuário (OBS: troca o "{id}" no final pelo usuário selecionado)
+POST {{base_url}}/usuarios/ativar/2
